@@ -9,7 +9,7 @@ function App() {
       <AppProvider>
         <SidebarProvider>
           <AppSidebar />
-          <main className="flex flex-col h-screen w-full min-w-[1200px] p-2">
+          <main className="flex flex-col h-screen w-full  p-2">
             {/* <div className="p-2"> */}
               <SidebarTrigger />
               <ContentContainer />
